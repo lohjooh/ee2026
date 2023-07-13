@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../MouseAudioDisplay.srcs/sources_1/new/clk_instance.v" \
+"../../../../MouseAudioDisplay.srcs/sim_1/new/twenty_hz_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

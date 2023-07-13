@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1680260401">
+  <File Type="ROUTE-PWR" Name="Main_menu_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Main_menu.tcl"/>
+  <File Type="BITSTR-BMM" Name="Main_menu_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="Main_menu_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Main_menu_reports.tcl"/>
+  <File Type="OPT-DCP" Name="Main_menu_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Main_menu_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Main_menu.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Main_menu_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Main_menu_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Main_menu_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Main_menu_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Main_menu_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Main_menu_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Main_menu_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Main_menu.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Main_menu_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Main_menu.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Main_menu_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Main_menu.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Main_menu_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Main_menu_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Main_menu_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Main_menu_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Main_menu_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Main_menu_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="Main_menu.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Main_menu_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="Main_menu.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Main_menu_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Main_menu_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Main_menu.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="Main_menu_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Main_menu_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Main_menu_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Main_menu_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Main_menu_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Main_menu_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Main_menu_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Main_menu_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Main_menu_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Main_menu_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Main_menu_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Main_menu_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Main_menu.bit"/>
+  <File Type="BITSTR-RBT" Name="Main_menu.rbt"/>
+  <File Type="BITSTR-NKY" Name="Main_menu.nky"/>
+  <File Type="BG-DRC" Name="Main_menu.drc"/>
+  <File Type="RDI-RDI" Name="Main_menu.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/Audio_Input.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/Audio_Input.v"/>
+        <Attr Name="ImportTime" Val="1570395502"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/B_Task.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/B_Task.v"/>
+        <Attr Name="ImportTime" Val="1678873184"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/B_Task_Run.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/B_Task_Run.v"/>
+        <Attr Name="ImportTime" Val="1678868712"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/BackButton.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/BackButton.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Group_Task_7Seg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/Group_Task_7Seg.v"/>
+        <Attr Name="ImportTime" Val="1678867792"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Group_seven_seg_D.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/Group_seven_seg_D.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Menu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/Menu.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MorseLogic.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/new/MorseLogic.v"/>
+        <Attr Name="ImportTime" Val="1680185700"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MorseTest.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/new/MorseTest.v"/>
+        <Attr Name="ImportTime" Val="1680185700"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Morse_Oled.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/new/Morse_Oled.v"/>
+        <Attr Name="ImportTime" Val="1680185700"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Oled_Display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../Desktop/NUS CEG Mods/Y2S2/EE2026- Digital Design/EE2026 Lab Materials/MenuLogic/MouseAudioDisplay.srcs/sources_1/new/Oled_Display.v"/>
+        <Attr Name="ImportTime" Val="1679926274"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Oled_DisplayOriginal.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/Oled_DisplayOriginal.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Oled_Number_Display_D.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/Oled_Number_Display_D.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/StudentA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../Desktop/NUS CEG Mods/Y2S2/EE2026- Digital Design/EE2026 Lab Materials/MenuLogicTrial/MenuLogicTrial.srcs/sources_1/new/StudentA.v"/>
+        <Attr Name="ImportTime" Val="1680116502"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/StudentB.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/StudentB.v"/>
+        <Attr Name="ImportTime" Val="1679645281"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/StudentC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../Desktop/NUS CEG Mods/Y2S2/EE2026- Digital Design/EE2026 Lab Materials/MenuLogicTrial/MenuLogicTrial.srcs/sources_1/new/StudentC.v"/>
+        <Attr Name="ImportTime" Val="1680114875"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Top_Student.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/SoundDisplay.srcs/sources_1/new/Top_Student.v"/>
+        <Attr Name="ImportTime" Val="1570395690"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Top_Student_D.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/Top_Student_D.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/alternatebeam.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/alternatebeam.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/animate.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/animate.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/animate_venusaur.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/animate_venusaur.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/circle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/circle.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_instance.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/clk_instance.v"/>
+        <Attr Name="ImportTime" Val="1679471915"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clown.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../MenuLogicTrial.srcs/sources_1/new/clown.v"/>
+        <Attr Name="ImportTime" Val="1680229624"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/crack.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/crack.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/crackinv.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/crackinv.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/display_count_on_seg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/display_count_on_seg.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display_seg_an_led.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../Desktop/NUS CEG Mods/Y2S2/EE2026- Digital Design/EE2026 Lab Materials/MenuLogicTrial/MenuLogicTrial.srcs/sources_1/new/display_seg_an_led.v"/>
+        <Attr Name="ImportTime" Val="1680116588"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/find_volume_level.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/find_volume_level.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/group_oled.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/group_oled.v"/>
+        <Attr Name="ImportTime" Val="1678881255"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/hell.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../MenuLogicTrial.srcs/sources_1/new/hell.v"/>
+        <Attr Name="ImportTime" Val="1680227236"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/impr_c.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/impr_c.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/improvement.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/improvement.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/menu_UI_student_A.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/menu_UI_student_A.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/menu_UI_student_B.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/menu_UI_student_B.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/menu_UI_student_C.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/menu_UI_student_C.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/menu_UI_student_D.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/menu_UI_student_D.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/menu_UI_student_G.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/menu_UI_student_G.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/message.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/message.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/mood.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/mood.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/morsecode.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../MenuLogicTrial.srcs/sources_1/new/morsecode.v"/>
+        <Attr Name="ImportTime" Val="1680195354"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/music.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/music.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/my_clk_divider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/my_clk_divider.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/oled_number_display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/oled_number_display.v"/>
+        <Attr Name="ImportTime" Val="1678868959"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/paint.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/paint.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/paint_app.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/paint_app.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/paint_application.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/paint_application.v"/>
+        <Attr Name="ImportTime" Val="1680185425"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pixel_XY.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/pixel_XY.v"/>
+        <Attr Name="ImportTime" Val="1678880693"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rain.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/rain.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/recognition.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/recognition.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sad.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/sad.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/shooting.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/shooting.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/stressmenu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/stressmenu.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/task.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/task.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/toneMenu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/toneMenu.v"/>
+        <Attr Name="ImportTime" Val="1679535021"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tonePlay.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/tonePlay.v"/>
+        <Attr Name="ImportTime" Val="1679471992"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/toneSetter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/toneSetter.v"/>
+        <Attr Name="ImportTime" Val="1679888576"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/venusaurcharge.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/venusaurcharge.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/venusaurhappy.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/venusaurhappy.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/Audio_Output.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/Audio_Output.vhd"/>
+        <Attr Name="ImportTime" Val="1677251482"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/Mouse_Control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/Mouse_Control.vhd"/>
+        <Attr Name="ImportTime" Val="1676185106"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/Ps2Interface.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/Ps2Interface.vhd"/>
+        <Attr Name="ImportTime" Val="1667157208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Main_menu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/Main_menu.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/merge.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../MenuLogicTrial.srcs/sources_1/imports/merge.v"/>
+        <Attr Name="ImportTime" Val="1680185426"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MenuLogicTrial/archive_project_summary.txt">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../archive_project_summary.txt"/>
+        <Attr Name="ImportTime" Val="1680186743"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Main_menu"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../Desktop/UNI WORK/Year 2/SEM 2/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1570394606"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

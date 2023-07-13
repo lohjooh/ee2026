@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prolo/Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sources_1/new/clk_instance.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_instance
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/prolo/Desktop/UNI WORK/Year 2/SEM 2/EE2026/Labs/Assignment/MouseAudioDisplay/MouseAudioDisplay.srcs/sim_1/new/twenty_hz_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module twenty_hz_sim
